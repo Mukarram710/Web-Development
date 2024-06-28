@@ -1,0 +1,49 @@
+header {
+    margin-top: 34px;
+    text-transform: capitalize;
+    
+}
+
+h1,h2,h3,p {
+    color: aliceblue;
+}
+
+body {
+    background-color: black;
+}
+
+main h2 {
+    border: solid white;
+    border-radius: 23px;
+    background-color: blue;
+}
+
+main {
+    float: right;
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+
+
+
+@media (max-width:684px){
+    body {
+        header {
+            text-align: center;
+        }
+        main {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
